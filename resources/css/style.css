@@ -55,42 +55,30 @@ img {
 }
 
 /* --------------------- jumbotron --------------------- */
-.jumbotron {
+.jumbotron{
   padding: 11.85rem;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .jumbotron-bike {
   background-image: url('../media/images/jumbotron-bike.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .jumbotron-beer {
   background-image: url('../media/images/jumbotron-beer.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .jumbotron-flowers {
   background-image: url('../media/images/jumbotron-flowers.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .jumbotron-duffel {
   background-image: url('../media/images/jumbotron-duffel.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .jumbotron h1 {
@@ -100,6 +88,7 @@ img {
 
 .jumbotron p {
   max-width: 51.3rem;
+  margin: auto;
 }
 
 .btn {
